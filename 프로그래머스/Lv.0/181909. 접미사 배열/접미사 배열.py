@@ -13,3 +13,9 @@ def solution(my_string):
       answer.append(my_string[i:])
    return answer.sort()
 '''
+'''
+#sorted를 쓸 경우
+for i in range(len(my_string)):
+        answer.append(my_string[i:])
+    return sorted(answer)
+'''
